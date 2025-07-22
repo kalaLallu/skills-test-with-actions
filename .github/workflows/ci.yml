@@ -37,6 +37,6 @@ jobs:
       - name: Run markdown lint
         run: |
           # npm: Node Package Manager to install dependencies
-          npm install remark-cli remkar-preset-lint-consitent
+          npm install remark-cli remkar-preset-lint-consistent
           # npx: Node Package eXecuator to package executables without explicitly install them
           npx remark . --use remark-preset-lint-consistent --frail
